@@ -8,3 +8,7 @@ def hello_world():
 @app.route('/yes')
 def yes():
 	return 'You said yes!!!'
+	
+@app.route('/no')
+def no():
+	return 'You said no'
